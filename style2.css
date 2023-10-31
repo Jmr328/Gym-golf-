@@ -1,0 +1,47 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+video {
+    z-index: -2;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.head {
+    position: absolute;
+    padding: 75px;
+    font-size: 2em;
+    color: white;
+    margin-top: 225px;
+}
+
+.the-words {
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.digits {
+    position: absolute;
+    padding: 75px;
+    font-size: 2em;
+    margin-top: 350px;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

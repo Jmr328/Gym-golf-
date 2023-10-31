@@ -1,0 +1,105 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+#navi-box {
+    padding: 15px;
+    width: 75%;
+    justify-content: center;
+
+}
+
+#navi-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.nav-brand {
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgba(63, 63, 63, 0.5);
+}
+a {
+    padding: 2px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    letter-spacing: 2px;
+    transition: 600ms ease;
+    background-color: rgb(0, 0, 0);
+}
+
+video {
+    z-index: -2;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    z-index: 0;
+    margin-top: -550px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    color: rgba(255, 255, 255);
+    width: fit-content;
+}
+
+p {
+    font-size:medium
+}
+
+.social {
+    z-index: 0;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    list-style-type: none;
+    padding: 5px;
+    /* color: white; */
+}
+ 

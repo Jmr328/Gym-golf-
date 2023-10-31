@@ -1,0 +1,33 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+i{
+    font-size: 5em;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding-top: 12.5%;
+}
+
+.Main-tile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+#a-page-box {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 25px;
+}
